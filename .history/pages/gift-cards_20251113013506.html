@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starbucks - About</title>
+  <title>Starbucks - Gift Cards</title>
   <link rel="icon" type="image/png" href="../images/Logo-Starbucks-Black.png">
   <link rel="stylesheet" href="../main.css">
 </head>
@@ -17,7 +17,7 @@
       <span class="spacer"></span>
       <ul>
         <li><a href="../index.html">Home</a></li>
-        <li class="current"><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/about.html">About</a></li>
         <li id="products-li">
           <a href="../pages/products.html">Products</a>
           <ul id="products-menu">
@@ -26,34 +26,27 @@
             <li><a href="#">At Home</a></li>
           </ul>
         </li>
-        <li><a href="../pages/gift-cards.html">Gift Cards</a></li>
+        <li class="current"><a href="../pages/gift-cards.html">Gift Cards</a></li>
         <li><a href="../pages/contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <!------------------------------------ Content -------------------------------->
-  <main class="about-main">
-    <section class="about-content">
-      <img
-        src="../images/Home-Body-1.jpg"
-        alt="Barista preparing a cup of coffee"
-        class="img-float-left"
-      >
+  <main class="gift-main">
+    <h1 class="gift-subtitle">Gift Cards</h1>
 
-      <h1 class="about-subtitle">About</h1>
-      <p class="about-text">
-        Our Starbucks-inspired coffee shop is a cozy place where you can enjoy
-        handcrafted beverages, freshly baked pastries, and a warm atmosphere.
-        We focus on high-quality coffee beans, ethical sourcing, and friendly
-        service so that every visit feels special.
-      </p>
-      <p class="about-text">
-        Whether you are catching up with friends, working on your laptop, or
-        taking a quiet moment for yourself, our space is designed to make you
-        feel welcome. Grab your favorite drink, find a comfortable seat, and
-        make this café your home away from home.
-      </p>
+    <!-- Flex container verde con 3 flex items celestes (imágenes) -->
+    <section class="gift-grid">
+      <figure class="gift-card">
+        <img src="../images/Home-Body-1.jpg" alt="Gift card design 1">
+      </figure>
+      <figure class="gift-card">
+        <img src="../images/Home-Body-2.jpg" alt="Gift card design 2">
+      </figure>
+      <figure class="gift-card wide">
+        <img src="../images/Home-Body-4.jpg" alt="Gift card design 3">
+      </figure>
     </section>
 
     <button id="back-to-top"

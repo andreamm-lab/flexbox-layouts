@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starbucks - About</title>
+  <title>Starbucks - Products</title>
   <link rel="icon" type="image/png" href="../images/Logo-Starbucks-Black.png">
   <link rel="stylesheet" href="../main.css">
 </head>
@@ -17,8 +17,8 @@
       <span class="spacer"></span>
       <ul>
         <li><a href="../index.html">Home</a></li>
-        <li class="current"><a href="../pages/about.html">About</a></li>
-        <li id="products-li">
+        <li><a href="../pages/about.html">About</a></li>
+        <li id="products-li" class="current">
           <a href="../pages/products.html">Products</a>
           <ul id="products-menu">
             <li><a href="#">Drinks</a></li>
@@ -26,33 +26,53 @@
             <li><a href="#">At Home</a></li>
           </ul>
         </li>
-        <li><a href="../pages/gift-cards.html">Gift Cards</a></li>
+        <li><a href="./pages/gift-cards.html">Gift Cards</a></li>
         <li><a href="../pages/contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <!------------------------------------ Content -------------------------------->
-  <main class="about-main">
-    <section class="about-content">
-      <img
-        src="../images/Home-Body-1.jpg"
-        alt="Barista preparing a cup of coffee"
-        class="img-float-left"
-      >
+  <main class="products-main page">
+    <!-- Panel izquierdo: menú de comidas -->
+    <aside class="side-nav">
+      <h2>Café Menu</h2>
+      <ul>
+        <li><a href="#">Espresso</a></li>
+        <li><a href="#">Cappuccino</a></li>
+        <li><a href="#">Latte</a></li>
+        <li><a href="#">Mocha</a></li>
+        <li><a href="#">Frappuccino</a></li>
+        <li><a href="#">Bakery</a></li>
+        <li><a href="#">Sandwiches</a></li>
+      </ul>
+    </aside>
 
-      <h1 class="about-subtitle">About</h1>
-      <p class="about-text">
-        Our Starbucks-inspired coffee shop is a cozy place where you can enjoy
-        handcrafted beverages, freshly baked pastries, and a warm atmosphere.
-        We focus on high-quality coffee beans, ethical sourcing, and friendly
-        service so that every visit feels special.
-      </p>
-      <p class="about-text">
-        Whether you are catching up with friends, working on your laptop, or
-        taking a quiet moment for yourself, our space is designed to make you
-        feel welcome. Grab your favorite drink, find a comfortable seat, and
-        make this café your home away from home.
+    <!-- Panel derecho: flex items con imágenes -->
+    <section class="main-content">
+      <h1 class="products-subtitle">Products</h1>
+
+      <section class="products-grid">
+        <figure class="product-card">
+          <img src="../images/Home-Body-2.jpg"
+               alt="Espresso coffee in a small cup">
+        </figure>
+
+        <figure class="product-card">
+          <img src="../images/Home-Body-3.webp"
+               alt="Cold coffee beverage with ice">
+        </figure>
+
+        <figure class="product-card wide">
+          <img src="../images/Home-Body-4.jpg"
+               alt="Bag of coffee beans">
+        </figure>
+      </section>
+
+      <p class="products-text">
+        Our menu includes a variety of handcrafted beverages, seasonal drinks,
+        and delicious food options so you can enjoy the full coffeehouse
+        experience.
       </p>
     </section>
 

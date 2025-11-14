@@ -304,8 +304,7 @@ header nav ul li.current > a::after {
 .products-main,
 .gift-main {
     max-width: 960px;
-    margin: 0px;
-    padding-top: 80px;
+    margin: 0 auto;
 }
 
 /* About & Contact usan flexbox en el main */

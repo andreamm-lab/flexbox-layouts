@@ -20,7 +20,7 @@ body {
 main {
     flex: 1;
     display: block;
-    padding: 120px 0px 24px; /* top=120 para que no lo tape el header fijo */
+    padding: 120px 32px 24px; /* top=120 para que no lo tape el header fijo */
 }
 
 /* 1.---------------------- Header ---------------------- */
@@ -208,8 +208,8 @@ header nav ul li.current > a::after {
     top: 120px;
     background-color: #f1d06d;
     color: black;
-    padding: 10px 16px;
-    margin: 0px 0;
+    padding: 12px 16px;
+    margin: 5px 0;
     width: 100%;
     border-radius: 4px;
     font-weight: 600;
@@ -304,8 +304,7 @@ header nav ul li.current > a::after {
 .products-main,
 .gift-main {
     max-width: 960px;
-    margin: 0px;
-    padding-top: 80px;
+    margin: 0 auto;
 }
 
 /* About & Contact usan flexbox en el main */
@@ -320,10 +319,9 @@ header nav ul li.current > a::after {
 .contact-subtitle,
 .products-subtitle,
 .gift-subtitle {
-    margin-top: 18px;
+    margin-top: 70px;
     font-size: 1.8rem;
     margin-bottom: 16px;
-    margin-left: 18px;
 }
 
 .about-subtitle {
@@ -353,14 +351,13 @@ header nav ul li.current > a::after {
 .products-text {
     line-height: 1.6;
     margin-bottom: 16px;
-    margin-left:18px;
 }
 
 /* imágenes flotadas reutilizables (About / Contact) */
 .img-float-left {
     float: left;
     width: 220px;
-    margin: 20px 16px 0px 0;
+    margin: 0 16px 16px 0;
     display: block;
 }
 

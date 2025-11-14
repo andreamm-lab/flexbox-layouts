@@ -305,7 +305,7 @@ header nav ul li.current > a::after {
 .gift-main {
     max-width: 960px;
     margin: 0px;
-    padding-top: 80px;
+    padding-top: 18px;
 }
 
 /* About & Contact usan flexbox en el main */
