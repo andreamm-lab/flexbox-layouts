@@ -306,9 +306,7 @@ header nav ul li.current > a::after {
     max-width: 960px;
     margin: 0px;
     padding-top: 80px;
-    padding-bottom: 0px;
 }
-
 
 /* About & Contact usan flexbox en el main */
 .about-main,
@@ -336,9 +334,9 @@ header nav ul li.current > a::after {
 .about-content {
     display: block;          /* block container que encuadra imagen + texto */
     padding: 16px;
-    /*border: 1px solid #fffefe;*/
+    border: 1px solid #e2e2e2;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #fafafa;
 }
 
 .about-content p {
@@ -362,9 +360,8 @@ header nav ul li.current > a::after {
 .img-float-left {
     float: left;
     width: 220px;
-    margin: 25px 16px 0px 16px;
+    margin: 20px 16px 0px 0;
     display: block;
-    /*padding-left: 5px;*/ 
 }
 
 .img-float-right {
@@ -387,7 +384,7 @@ header nav ul li.current > a::after {
 .product-card {
     background-color: #d1bd7d;  /* celeste flex item */
     padding: 8px;
-    flex: 0 0 calc(25% - 12px);
+    flex: 1 1 25%;
 }
 
 .product-card.wide {

@@ -151,7 +151,7 @@ header nav ul li.current > a::after {
 }
 
 .main-content {
-    width: 100%;
+    width: 72%;
     vertical-align: top;
 }
 
@@ -306,9 +306,7 @@ header nav ul li.current > a::after {
     max-width: 960px;
     margin: 0px;
     padding-top: 80px;
-    padding-bottom: 0px;
 }
-
 
 /* About & Contact usan flexbox en el main */
 .about-main,
@@ -324,7 +322,7 @@ header nav ul li.current > a::after {
 .gift-subtitle {
     margin-top: 18px;
     font-size: 1.8rem;
-    margin-bottom: 0px;
+    margin-bottom: 16px;
     margin-left: 18px;
 }
 
@@ -336,9 +334,9 @@ header nav ul li.current > a::after {
 .about-content {
     display: block;          /* block container que encuadra imagen + texto */
     padding: 16px;
-    /*border: 1px solid #fffefe;*/
+    border: 1px solid #e2e2e2;
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #fafafa;
 }
 
 .about-content p {
@@ -362,9 +360,8 @@ header nav ul li.current > a::after {
 .img-float-left {
     float: left;
     width: 220px;
-    margin: 25px 16px 0px 16px;
+    margin: 20px 16px 0px 0;
     display: block;
-    /*padding-left: 5px;*/ 
 }
 
 .img-float-right {
@@ -381,13 +378,13 @@ header nav ul li.current > a::after {
     gap: 16px;
     background-color: #ffffff; /* verde contenedor */
     padding: 16px;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
 }
 
 .product-card {
     background-color: #d1bd7d;  /* celeste flex item */
     padding: 8px;
-    flex: 0 0 calc(25% - 12px);
+    flex: 0 0 25%;
 }
 
 .product-card.wide {
@@ -410,12 +407,12 @@ header nav ul li.current > a::after {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    background-color: #ffffff;  /* contenedor verde */
+    background-color: #e3f1e4;  /* contenedor verde */
     padding: 16px;
 }
 
 .gift-card {
-    background-color: #fcf6f6;  /* celeste flex item */
+    background-color: #d4e7f9;  /* celeste flex item */
     padding: 8px;
     flex: 1 1 calc(50% - 16px);
 }
