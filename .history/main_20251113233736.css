@@ -420,15 +420,16 @@ header nav ul li.current > a::after {
     margin-left: 0px;
 }
 
-.gift-grid { 
+.gift-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    background-color: #ffffff;  /* contenedor */
+    background-color: #ffffff;  /* contenedor verde */
     padding: 16px;
-    /* sin width, sin margin auto */
+    width: 80%; 
+    margin: 0 auto;
+    
 }
-
 
 .gift-card {
     background-color: #fcf6f6;  /* celeste flex item */

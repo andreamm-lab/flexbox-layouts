@@ -20,7 +20,7 @@ body {
 main {
     flex: 1;
     display: block;
-    padding: 80px 0px 0px; /* top=120 para que no lo tape el header fijo */
+    padding: 120px 0px 24px; /* top=120 para que no lo tape el header fijo */
 }
 
 /* 1.---------------------- Header ---------------------- */
@@ -151,13 +151,12 @@ header nav ul li.current > a::after {
 }
 
 .main-content {
-    width: 80%;
+    width: 100%;
     vertical-align: top;
-    
 }
 
 .side-nav {
-    width: 260px;
+    width: 28%;
     background-color: #0d5c1c;
     color: #fff;
     margin: 0;
@@ -304,16 +303,17 @@ header nav ul li.current > a::after {
 .contact-main,
 .gift-main {
     max-width: 960px;
-    margin: 0px auto;
+    margin: 0px;
     padding-top: 80px;
     padding-bottom: 0px;
 }
 
-.products-main {
-    width: 100%;
-    max-width: none;
+.products-main{
+    max-width: 960px;
+    margin-right: 12px;
+    padding-top: 80px;
+    padding-bottom: 0px;
 }
-
 
 /* About & Contact usan flexbox en el main */
 .about-main,
@@ -384,23 +384,15 @@ header nav ul li.current > a::after {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    background-color: #ffffff;
+    background-color: #ffffff; /* verde contenedor */
     padding: 16px;
     margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
--   width: 750px;
--   min-height: 100%;
-+   width: 100%;        /* ocupa todo el ancho disponible del main-content */
-+   min-height: auto;   /* que tenga solo el alto que necesite */
-    justify-content: flex-start;
 }
-
 
 .product-card {
     background-color: #d1bd7d;  /* celeste flex item */
     padding: 8px;
-    flex: 0 0 calc(25% - 16px);
+    flex: 0 0 calc(25% - 12px);
 }
 
 .product-card.wide {
@@ -417,18 +409,16 @@ header nav ul li.current > a::after {
 .gift-main {
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: 85px;
 }
 
-.gift-grid { 
+.gift-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    background-color: #ffffff;  /* contenedor */
+    background-color: #ffffff;  /* contenedor verde */
     padding: 16px;
-    /* sin width, sin margin auto */
 }
-
 
 .gift-card {
     background-color: #fcf6f6;  /* celeste flex item */

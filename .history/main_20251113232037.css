@@ -157,7 +157,7 @@ header nav ul li.current > a::after {
 }
 
 .side-nav {
-    width: 260px;
+    width: 28%;
     background-color: #0d5c1c;
     color: #fff;
     margin: 0;
@@ -304,7 +304,7 @@ header nav ul li.current > a::after {
 .contact-main,
 .gift-main {
     max-width: 960px;
-    margin: 0px auto;
+    margin: 0px;
     padding-top: 80px;
     padding-bottom: 0px;
 }
@@ -417,18 +417,16 @@ header nav ul li.current > a::after {
 .gift-main {
     display: flex;
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: 85px;
 }
 
-.gift-grid { 
+.gift-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    background-color: #ffffff;  /* contenedor */
+    background-color: #ffffff;  /* contenedor verde */
     padding: 16px;
-    /* sin width, sin margin auto */
 }
-
 
 .gift-card {
     background-color: #fcf6f6;  /* celeste flex item */
